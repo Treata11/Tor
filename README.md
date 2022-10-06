@@ -43,6 +43,7 @@ Edit the [torrc](https://2019.www.torproject.org/docs/tor-manual.html.en) with y
 vim torrc
 ```
 
+Your torrc in snowflake/client/ should be looking like this.
 ```
 UseBridges 1
 
@@ -54,7 +55,7 @@ Bridge snowflake 127.0.0.1:8118 2B280B23E1107BB62ABFC40DDCC8824814F80A72 fingerp
 
 SocksPort 8118
 ```
-Your torrc in snowflake/client/ should be looking like this.
+
 > more info at:https://github.com/keroserene/snowflake/tree/master/client
 
 At last run:
