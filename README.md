@@ -24,10 +24,13 @@ They have more documentation in the [Snowflake](https://gitlab.torproject.org/tp
 #### Running the Snowflake client with Tor
 
 Clone the repository:
-git clone https://github.com/keroserene/snowflake
+```git clone https://github.com/keroserene/snowflake```
 
 Head to the directory and then "client":
+
+```
 cd snowflake/client/
+```
 
 Make sure you have [golang](https://github.com/golang/go) installed on your machine and then run:
 ```go get```
@@ -35,7 +38,10 @@ and
 ```go build```
 
 Edit the [torrc](https://2019.www.torproject.org/docs/tor-manual.html.en) with your preferred editor:
-```vim torrc```
+
+```
+vim torrc
+```
 
 ```
 UseBridges 1
